@@ -1,0 +1,21 @@
+<h2>Get Todos Url</h2>
+<mat-form-field class="full-width" appearance="fill">
+    <mat-label>Get Todos Url</mat-label>
+    <input matInput [(ngModel)]="awsConfig.getTodosUrl">
+</mat-form-field>
+<h2>Update Todos Url</h2>
+<mat-form-field class="full-width" appearance="fill">
+    <mat-label>Update Todos Url</mat-label>
+    <input matInput [(ngModel)]="awsConfig.updateTodosUrl">
+</mat-form-field>      
+<h2>Delete Todos Url</h2>    
+<mat-form-field class="full-width" appearance="fill">
+    <mat-label>Delete Todos Url</mat-label>
+    <input matInput [(ngModel)]="awsConfig.deleteTodosUrl">
+</mat-form-field>
+<h2>Save in Local Storage</h2> 
+<p>
+    <button mat-raised-button color="primary" (click)="saveConfiguration()">
+        Save configuration
+    </button>
+</p>

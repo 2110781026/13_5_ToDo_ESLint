@@ -25,7 +25,7 @@
     "aws-sdk": "^2.1096.0",
     "eslint-config-prettier": "^8.5.0",
     "eslint-plugin-prettier": "^4.0.0",
-    "prettier-eslint": "^14.0.3",
+    "prettier-eslint": "^14.1.0",
     "rxjs": "~7.5.0",
     "tslib": "^2.3.0",
     "util": "^0.12.4",
